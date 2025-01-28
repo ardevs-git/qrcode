@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+        .card img {
+            width: 150px;
+            margin: 10px 0;
+        }
+        .card h1 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .card p {
+            color: #666;
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .card .qr-code {
+            margin-bottom: 20px;
+        }
+        .card button {
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .card button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>We Value Your Feedback!</h1>
+        <p>Please take a moment to leave us a review on Google Maps. Scan the QR code below to get started.</p>
+        <div class="qr-code">
+            <img src="qrcode.png" alt="QR Code for Google Review">
+        </div>
+        <p>Thank you for helping us improve!</p>
+        <button onclick="window.location.href='YOUR_GOOGLE_REVIEW_LINK'">Leave a Review</button>
+    </div>
+</body>
+</html>
